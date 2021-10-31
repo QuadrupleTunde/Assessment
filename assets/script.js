@@ -63,7 +63,7 @@ let ChocolateChipPlus= document.querySelector('#add-cc');
     ChocolateChipMinus.addEventListener('click', function() {
     // console.log('chocolate chip - button was clicked!')
     if (totalQuantity2 > 0 ){
-        totalQuantity2= totalQuantity - 1};
+        totalQuantity2= totalQuantity2 - 1};
         quantitycc.textContent = totalQuantity2;
         overallTotal.textContent = totalQuantity1 + totalQuantity2 +totalQuantity3;
 })
@@ -80,7 +80,7 @@ let quantityss = document.querySelector('#qty-sugar');
 let SugarSprinkleMinus = document.querySelector('#minus-sugar');
         SugarSprinkleMinus.addEventListener('click', function() {
             // console.log('Gingerbread - button was clicked!')
-            if (totalQuantity > 0 ){
+            if (totalQuantity3 > 0 ){
                 totalQuantity3= totalQuantity3 - 1};
                 quantityss.textContent = totalQuantity3;
                 overallTotal.textContent = totalQuantity1 + totalQuantity2 +totalQuantity3;
